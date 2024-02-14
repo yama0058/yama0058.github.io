@@ -1,0 +1,37 @@
+body {
+    font-size: 18px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header, footer {
+    background-color: aliceblue;
+}
+
+.site-title {
+    color:pink
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+.square-list {
+    list-style-type: square; 
+}
+
+.square-list li:nth-child(odd) {
+    background-color: rgb(255, 188, 227); 
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: rgb(236, 215, 255);
+    border: 2px solid plum;
+}
+
+nav ul li a:hover {
+    background-color: rgb(180, 180, 255);
+}
