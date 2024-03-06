@@ -1,0 +1,167 @@
+html {
+
+	background-color: #aad4cf;
+
+}
+
+body {
+	background-color: #d4e9e7;
+	width: 1025px;
+	margin: 0 auto;
+}
+
+
+img {
+	width: 1023px;
+	height: 345px;
+	float: left;
+
+}
+
+.content-container {
+	margin: 0 auto;
+}
+
+
+.container {
+	position: relative;
+}
+
+.title {
+	position: absolute;
+	left: 50%;
+	margin: 0px;
+	transform: translate(-50%, -50%);
+	bottom: 100px;
+	text-align: center;
+
+}
+
+.title h1 {
+	color: white;
+	font-size: 65px;
+	font-family: "Myriad Pro", Arial, sans-serif;
+}
+
+
+.nav {
+	font-family: "Myriad Pro", Arial, sans-serif;
+	font-size: 25px;
+	text-align: center;
+	padding: 5px;
+}
+
+.navigation {
+	display: inline-block;
+	border-right: 1px solid black;
+	line-height: 35px;
+	width: 100px;
+	padding: 0 100px;
+}
+
+.navigation:last-child {
+	border-right: none;
+}
+
+.navigation a {
+	margin-right: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+
+.wide {
+	width: 1023px;
+	height: 345px;
+}
+
+.medium {
+	width: 250px;
+	height: 259px;
+	margin: 17px;
+}
+
+.medium-container h2 {
+	position: absolute;
+	left: 270px;
+	top: 50px;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 15px;
+}
+
+h2 {
+	font-size: 35px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+
+}
+
+.medium-container P {
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 15px;
+	line-height: 1.5;
+}
+
+h3 {
+	font-size: 30px;
+	margin: 10px;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+.list {
+	list-style-type: disc;
+	margin: 30px;
+	font-family: arial;
+	margin-top: 15px;
+}
+
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 29px;
+	margin: 10px;
+}
+
+form {
+	border: 1px solid black;
+	margin: 0 10px;
+	padding: 10px;
+}
+
+form div {
+	margin: 10px;
+}
+
+label {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	width: 100%;
+	border: 1px solid #bac2c1;
+	padding: 5px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+	outline: none;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-container button {
+	background-color: transparent;
+	padding: 10px 10px;
+}
+
+footer {
+	text-align: right;
+	margin: 30px;
+	padding: 15px;
+}
