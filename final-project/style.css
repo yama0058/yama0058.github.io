@@ -1,0 +1,465 @@
+/*--------------- Mobile style ---------------*/
+
+/* logo page adjustment */
+img .logo {
+    margin-left: 8px;
+    margin-top: 20px;
+   }
+
+header {
+    background-color: #222222;
+    margin: -10px;
+}
+
+
+
+.content-container {
+    background-color: #c78c06;
+    width: 733px;
+    height: 144px; 
+    display: block;
+}
+
+.nav ul li {
+    margin-right: 45px;
+    list-style-type: none;
+    
+}
+
+/* form1 position */
+.form1 {
+    text-align: center; 
+}
+
+/* form "search" size */
+input[type="text"] {
+    width: 550px;
+    height: 45px;
+}
+
+/* nav alignment and style/size */
+.container nav {
+    list-style-type: none;
+    text-align: center;
+    padding: 22px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+}
+
+/*menu color and decoration*/
+.nav a {
+    color: #c78c06;
+    text-decoration: none;
+}
+
+/* menu HOME style */
+.nav li:first-child a {
+    color: #222222;
+    text-decoration: none;
+}
+
+/* space between li items */
+.nav li {
+    margin-bottom: 26px;
+    
+}
+
+
+/*button color and size*/
+.form1-container button {
+    background-color: #222222; 
+    border-color: #c78c06; 
+    padding: 5px; 
+    height: 50px;
+    width: 44px;
+}
+
+/* magnifying glass icon color*/
+.form1-container button i {
+    color: #c78c06; 
+}
+
+/* form1 text margin */
+.form1 input[type="text"] {
+    margin: 1px;
+}
+
+.main-banner img {
+ width: 760px;
+ height: 647px;
+}
+
+/* main banner position*/
+.main-banner {
+    position: relative;
+    display: block;
+}
+
+/*first big button color and style*/
+.button-container-yellow button {
+    background-color:#c78c06;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    width: 278px;
+    height: 105px;
+    margin-top: 20px;
+}
+
+/*arrow icon gap adapted from Kath Chen */
+.icon {
+    margin-left: 10px;
+    }
+
+
+/*------------- about us section -----------------*/
+.about-container {
+    background-color: #ffe6ac; 
+}
+.about-container h2 {
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-top: 45px;
+    margin-bottom: 37px;
+}
+
+.about-container p {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    margin-bottom: 35px;
+
+}
+
+/*------------- Our Services section -----------------*/
+.services h2 {
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 55px;
+}
+
+
+/* digital plans */
+.service-item {
+    background-color: #ffe6ac;
+}
+
+.digital-container h3 {
+    font-size: 35px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-top: 43px;
+    margin-bottom: 30px;
+}
+
+.digital-container p {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    margin-bottom: 35px;
+
+}
+
+/* second big button */
+.button-container-black button {
+    background-color:#222222;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    width: 238px;
+    height: 100px;
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
+
+/* marketing plans */
+
+.marketing-container h3 {
+    font-size: 35px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-top: 43px;
+    margin-bottom: 30px;
+}
+
+.marketing-container p {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    margin-bottom: 35px;
+
+}
+
+/* video plans */
+
+.video-production h3 {
+    font-size: 35px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-top: 43px;
+    margin-bottom: 30px;
+}
+
+.video-production p {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    margin-bottom: 35px;
+
+}
+
+/* web plans */
+
+.web-development h3 {
+    font-size: 35px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-top: 43px;
+    margin-bottom: 30px;
+}
+
+.web-development p {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    margin-bottom: 35px;
+
+}
+
+/* print plans */
+
+.print-production h3 {
+    font-size: 35px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-top: 43px;
+    margin-bottom: 30px;
+}
+
+.print-production p {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    margin-bottom: 35px;
+
+}
+
+/* Our Vision */
+
+.our-vision h3 {
+    font-size: 35px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-top: 43px;
+    margin-bottom: 30px;
+    position: absolute;
+    color: white;
+    padding: 15px;
+}
+
+.our-vision p  {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    margin-bottom: 35px;
+}
+
+.our-vision {
+  background-image: url(images/vision.jpg);
+  color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 760px 300px;
+  padding: 15px
+}
+
+/*black faded button - from Our vision*/
+.button-container-faded button {
+    height: 100px;
+    width: 230px;
+    border: 2px solid #c78c06; 
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+/*team member*/
+.team-member1 {
+    background-color:#ffe6ac;
+    margin-bottom: 15px;
+}
+
+.team-member1 h3 {
+   font-size: 44px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: bold;
+   margin-top: 27px;
+   margin-bottom: 14px;
+
+}
+
+.team-member1 h4 {
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 27px;
+ }
+
+ .team-member1 p {
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    margin-bottom: 34px;
+ 
+ }
+
+ .team-member2 p {
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    margin-bottom: 34px;
+ 
+ }
+
+ .team-member2 {
+    background-color:#ffe6ac;
+    margin-bottom: 15px;
+}
+
+.team-member2 h3 {
+   font-size: 44px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: bold;
+   margin-top: 27px;
+   margin-bottom: 14px;
+
+}
+
+.team-member2 h4 {
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 27px;
+ }
+
+
+ .team-member2 p {
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    margin-bottom: 34px;
+ 
+ }
+
+.contact-us h5 {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 30px;
+ }
+
+/* form 2 text style*/
+
+ .form2 label[for="FullName"] {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.form2 label[for="Email"] {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.form2 label[for="Message"] {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/*form2 button*/
+
+.button-container button {
+ font-size: 20px;
+ margin-top: 25px;
+ background-color: #222222;
+ color:#c78c06;
+ width: 65px;
+ height: 37px;
+}
+
+/* hours of operation
+Adapted from: https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse */
+
+table {
+    border-collapse: collapse;
+    width: 727px;
+
+th {
+    background-color: #ffe6ac; 
+    padding: 25px; 
+    text-align: center; 
+    border: 1px solid black;
+    font-family: "Open Sans", sans-serif;
+}
+
+td {
+    padding: 25px; 
+    text-align: left; 
+    border: 1px solid black; 
+    font-family: "Open Sans", sans-serif;
+}}
+
+/* map container styles*/
+
+.map-container h6 {
+ font-size: 40px;
+ font-family: "Open Sans", sans-serif;
+ font-weight: bold;
+ margin-top: 30px;
+ margin-bottom: 10px;
+ padding: 10px
+}
+
+.map-container iframe {
+    padding: 10px
+}
+
+/* footer styles*/
+footer {
+    background-color: #222222;
+    width: 760px;
+    height: 107px;
+    color:#c78c06;
+}
+
+footer p {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+footer a {
+    font-family: "Open Sans", sans-serif;
+    color: #c78c06;
+}
+
+footer .button-container a {
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px;
+}
+
+
+/* ----------- Desktop style ------------------- */
+
+@media only screen and (max-width: 1200px)
+
+{}

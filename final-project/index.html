@@ -1,66 +1,82 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Three Star Media</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
-    <style>
-    </style>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <!-- Header section -->
     <header>
-        <div class="content-container">
-        </div>
         <div class="container">
             <!-- Logo image -->
+            <div class="logo-container">
             <img src="images/logo.png" alt="Logo" class="logo">
+            </div>
             <!-- Navigation menu -->
             <nav class="nav">
-                <ul>
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#AboutUs">About Us</a></li>
+                
+                <li><a href="#Home" class="home-menu">Home</a></li>
+                <li><a href="#AboutUs">About Us</a></li>
                     <li><a href="#Services">Services</a></li>
                     <li><a href="#Team">Team</a></li>
                     <li><a href="#Contact">Contact</a></li>
-                </ul>
+            
             </nav>
-            <form>
-                <div>
+
+            <form class="form1">
+                <div class="form1-container">
+
                     <input type="text" name="Search" id="Search" placeholder="Search">
                     <button type="submit"><i class="fas fa-search"></i></button>
                 </div>
             </form>
         </div>
+    </div>
     </header>
 
     <main>
-        <img src="images/main-banner.jpg" alt="main-banner" class="main-banner">
-
-        <h1>Welcome to Three Star Media</h1>
-
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum
-            similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga
-            voluptatibus facilis iusto consequuntur!
-        </p>
-
-        <div class="button-container-yellow">
-            <button>Connect with us &#x25B6;</button>
-        </div>
+        
+            <div class="banner-overlay">
+                <img src="images/main-banner.jpg" alt="main-banner" class="main-banner">
+                <h1>Welcome to Three Star Media</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum
+                    similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga
+                    voluptatibus facilis iusto consequuntur!
+                </p>
+                <div class="button-container-yellow">
+                    <button>Connect with us <span class="icon">&#x25B6;</span></button>
+                </div>
+            </div>
 
         <section id="about">
             <div class="about-container">
+                <br>
                 <img src="images/about-us.jpg" alt="about-us" class="about-us">
+                
                 <h2>About Us</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem
                     asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint
                     praesentium laboriosam perferendis eius amet ad?
                 </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem
+                    asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint
+                    praesentium laboriosam perferendis eius amet ad?
+                </p>
+            </br>
             </div>
         </section>
 
@@ -68,7 +84,9 @@
             <div class="services">
                 <h2>Our Services</h2>
 
+                <section id="digitalsection">
                 <div class="service-item">
+                    <div class="digital-container">
                     <img src="images/digital.jpg" alt="digital" class="digital">
                     <h3>Digital Transformation</h3>
                     <p>
@@ -80,9 +98,12 @@
                         <button>Digital Plans &#x25B6;</button>
                     </div>
                 </div>
+            </div>
+            </section>
 
-
+            <section id="marketingsection">
                 <div class="service-item">
+                    <div class="marketing-container">
                     <img src="images/marketing.jpg" alt="marketing" class="marketing">
                     <h3>Marketing</h3>
                     <p>
@@ -94,31 +115,30 @@
                         <button>Marketing Plans &#x25B6;</button>
                     </div>
                 </div>
-
             </div>
         </section>
 
-        <section id="video">
-            <div class="video-production">
-                <h3>Video Production</h3>
-
+        <section id="videosection">
                 <div class="service-item">
+                    <div class="video-production">
                     <img src="images/video.jpg" alt="video" class="video">
+                    <h3>Video Production</h3> 
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi
+                        mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti
+                        explicabo nisi?
+                    </p>
+                    <div class="button-container-black">
+                        <button>Video Plans &#x25B6;</button>
+                    </div>
+                </div> 
                 </div>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi
-                    mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti
-                    explicabo nisi?
-                </p>
-                <div class="button-container-black">
-                    <button>Video Plans &#x25B6;</button>
-                </div>
-            </div>
         </section>
+        
 
-        <section id="web">
+        <section id="websection">
             <div class="web-development">
+                <div class="service-item">
                 <h3>Web Development</h3>
 
                 <div class="service-item">
@@ -136,48 +156,44 @@
             </div>
         </section>
 
-        <section id="print">
+        <section id="printsection">
             <div class="print-production">
-                <h3>Print</h3>
-
-                <div class="service-item">
+                <div class="service-item"> 
+                    <h3>Print</h3> 
                     <img src="images/print.jpg" alt="print" class="print">
-                </div>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi
-                    mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti
-                    explicabo nisi?
-                </p>
-                <div class="button-container-black">
-                    <button>Print Plans &#x25B6;</button>
-                </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi
+                        mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti
+                        explicabo nisi?
+                    </p>
+                    <div class="button-container-black">
+                        <button>Print Plans &#x25B6;</button>
+                    </div>
+                </div> 
             </div>
         </section>
+        
 
-        <section id="vision">
+        <section id="visionsection">
             <div class="our-vision">
                 <h3>Our Vision</h3>
-
                 <div class="service-item">
-                    <img src="images/vision.jpg" alt="vision" class="vision">
                 </div>
-
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi
                     mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti
                     explicabo nisi?
                 </p>
-                <div class="button-container-orange">
+                <div class="button-container-faded">
                     <button>Learn More &#x25B6;</button>
                 </div>
             </div>
         </section>
 
-        <section id="team">
+        <section id="teamsection">
             <h2>Our Team</h2>
 
-            <div class="team-member">
+            <div class="team-member1">
                 <img src="images/john.jpg" alt="john" class="john">
                 <h3>John Doe</h3>
                 <h4>CEO and Co-owner</h4>
@@ -190,7 +206,7 @@
 
 
 
-            <div class="team-member">
+            <div class="team-member2">
                 <img src="images/bob.jpg" alt="bob" class="bob">
                 <h3>Bob Rite</h3>
                 <h4>CFO and Co-owner</h4>
@@ -207,7 +223,7 @@
                 <h2>Contact Us</h2>
                 <h5>Send us a message</h5>
 
-                <form>
+                <form class="form2">
                     <div>
                         <label for="FullName">Full Name</label><br>
                         <input type="text" name="FullName" id="FullName">
