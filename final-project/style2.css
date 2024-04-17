@@ -457,6 +457,15 @@ width: 100%;
     margin: 10px;
 }
 
+/* hours of operations */
+
+.hours h5 {
+    font-size: 28px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+    margin: 10px;
+}
 
 /* form 2 text style*/
 
@@ -712,6 +721,9 @@ footer .button-container a {
     padding: 15px;
 }
 
+    .grid-container1 {
+
+    }
 }
 
 
