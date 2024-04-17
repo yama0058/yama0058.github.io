@@ -457,16 +457,6 @@ width: 100%;
     margin: 10px;
 }
 
-/* hours of operations */
-
-.hours h5 {
-    font-size: 28px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: bold;
-    padding-top: 5px;
-    margin: 10px;
-}
-
 /* form 2 text style*/
 
 .form2{
@@ -530,6 +520,14 @@ Adapted from: https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse *
     font-family: "Open Sans", sans-serif;
 }
 
+.hours h5 {
+    font-size: 28px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+    margin: 10px;
+}
+
 
 /* map container styles*/
 
@@ -547,7 +545,7 @@ Adapted from: https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse *
 /* footer styles*/
 footer {
     background-color: #222222;
-    width: 760px;
+    width: auto;
     height: 107px;
     color:#c78c06;
 }
@@ -722,8 +720,32 @@ footer .button-container a {
 }
 
     .grid-container1 {
-
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     }
+
+    #digitalsection {
+        grid-column: span 3;
+    }
+
+    #marketingsection {
+        grid-column: span 3;
+    }
+
+    #videosection {
+        grid-column: span 2;
+    }
+
+    #websection {
+        grid-column: span 2;
+    }
+
+    #printsection {
+        grid-column: span 2;
+    }
+
+
+
 }
 
 
