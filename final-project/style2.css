@@ -8,12 +8,18 @@ flex-direction: column;
 padding: 15px;
 max-width: 1200px;
 padding-right: 30px;
+max-width: 100%;
 }
+
+
+
 
 /*----------- logo container bg color ----------*/
 .logo-container
 {
     background-color: #c78c06;
+    width: 730px;
+
 }
 
 /* ------------ nav styles -------------- */ 
@@ -46,10 +52,11 @@ padding-right: 30px;
     text-decoration: none;
     background-color: #c78c06;
     display: inline-block;
-    width: 100%;
+    width: 730px;
     height: 85px;
     line-height: 130px;
 }
+
 
 /*button color and size*/
 .form1-container button {
@@ -109,10 +116,10 @@ height: 40px;
 
 .overlay-color {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 100px;
+    left: 1px;
     width: 100%;
-    height: 100%;
+    height: 400px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -123,9 +130,11 @@ height: 40px;
     font-family: "Open Sans", sans-serif;
     color: white;
     font-weight: bold;
-    font-size: 70px;
-    padding-top: 84px;
+    font-size: 55px;
+    padding-top: 70px;
     line-height: 1.5em;
+    padding-bottom: 5px;
+    margin-top: 25px;
   }
 
   .banner-overlay p {
@@ -146,8 +155,9 @@ height: 40px;
     font-style: normal;
     font-size: 25px;
     width: 270px;
-    height: 100px;
+    height: 80px;
     margin-top: 10px;
+    margin-bottom: 35px;
 }
 
 /*arrow icon gap adapted from Professor Kath Chen */
@@ -158,7 +168,7 @@ height: 40px;
     /*------------- ABOUT US section -----------------*/
 
     .about-us {
-        width: 100%;
+        width: 710px;
     }
 
 .about-container {
@@ -323,7 +333,6 @@ height: 40px;
   background-image: url(images/vision.jpg);
   color: white;
   width: 100%;
-  background-position: center;
   background-size: 760px 300px;
   padding: 30px;
   margin-top: 15px;
@@ -415,9 +424,9 @@ width: 100%;
 }
 
 .team-member1 img, .team-member2 img {
-    width: 100%;
+    width: 735px;
     height: auto;
-    
+    padding: 2px;
 }
 
 .team-background-color {
@@ -425,6 +434,8 @@ width: 100%;
     padding-top: 15px;
     padding-bottom: 1px;
     padding-left: 15px;
+    padding-right: 3px;
+    width: 720px;
 }
 /*----------------- Contact Us -----------------*/
 
@@ -555,4 +566,139 @@ footer .button-container a {
     color: #c78c06;
     padding: 15px;
 }
+
+
+/*------------------------------------------------ Desktop Styles *----------------------------------------------------------------*/
+
+@media (min-width: 760px) {
+
+    /*------------- logo styles ---------------*/
+
+    .logo-container {
+        display: inline-block;
+        padding: 5px;
+        margin-top: 10px;
+        background-color: transparent;
+        width: 1000px;
+    }
+
+    .logo {
+        display: inline-block;
+    }
+
+    .container {
+        background-color: #222;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+   
+    /*--------------- navigation styles -------------*/
+
+    
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav li {
+        margin-bottom: 0;
+    }
+
+    nav li {
+        margin-right: 10px;
+        padding: 24px;
+    }
+    
+    nav a {
+        padding: 10px 15px;
+    }
+
+    .nav li:first-child a {
+        color: #222222;
+        text-decoration: none;
+        background-color: #c78c06;
+        display: inline-block;
+        width: auto;
+        height: auto;
+        line-height: initial;
+    }
+
+    .container nav {
+
+        display: inline-block;
+    }
+
+    /*----------- form1 -----------------*/
+
+    .form1 {
+        display: flex;
+    }
+
+    /*-------------------- Welcome banner -----------*/
+
+    .banner-overlay {
+        position: relative;
+        padding: 150px;
+        padding-top: 50px;
+        background-image: url(../images/main-banner.jpg);
+        background-size: cover;
+    }
+
+    .overlay-color {
+        position: absolute;
+        top: 100px;
+        left: 50px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+
+/*---------- About Us ----------------*/
+
+.about-us {
+    width: 581px;
+    margin-left: 100px;
+}
+
+.about-container h2 {
+    float: right;
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-top: 1px;
+    padding-right: 300px;
+}
+
+.about-container {
+    width: 1220px;
+    background-color: #ffe6ac;
+    padding-top: 15px;
+    padding-bottom: 5px;
+   
+}
+
+
+/* Team styles */
+
+.team-member1,
+.team-member2 {
+    display: flex;
+    flex-direction:row-reverse;
+}
+
+.team-background-color {
+    background-color: #ffe6ac;
+    padding: 15px;
+}
+
+}
+
+
+
 
